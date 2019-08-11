@@ -1,0 +1,71 @@
+==========Istilah istilah pada Git & Github==========
+
+# Version Control System
+System yang menyimpan dan mengelola rekaman perubahan dari source code
+
+# Git
+Salahsatu sofetware yang bisa melakukan (VCS) di atas
+
+# GitHUB
+Websait/Layanan cloud untuk mengelola project Git kita
+
+=====Perintah di dalam git & git hub====
+
+# Repo/Repocitory
+folder project kita
+# Commit
+rekaman / snapshot dari repo kita
+# Hash
+penanda unik pada sebuah commit 
+# Checkout
+berpindah ke sebuah commit
+# Branch
+cabang bebas dari sebuah commit
+# Marge
+Menggabungkan branch
+# Remote
+Sumber yang memiliki repo
+# Clone
+Mengambil repo dari remotte, agar repo kita tersambung dari website ke komputer kita
+# Push
+mengirimkan commit 
+# Pull 
+mengambi commit dari repo
+
+
+ ========= Git =============
+cara delete file di git & github
+- cara delete di git local di komputer kita sangat mudah hanya cukum delete repository/ folder yang ada 
+di laptopkita
+-sedangkan di github kita dapat delete dengan cara 
+1) click repository kita(yang mau kita delete)
+2) setting-scrool ke bawah 
+3) delete repository 
+4) masukkan nama repository kita(yang ingin kita delete)
+ 
+- cara membuat repository di kgit, di dalam komputer kita 
+ buat folder-masukkan file di dalamnya-buka terminal-
+
+- cara clone repository kita yang ada di github ke pc kita
+1) click repository kita yang ada di git hub
+2) click tombol clone or downnload
+3) copy alamat repository kita
+4) buka terminal
+5) masuk ke folder kita dengan cara "f:" (untuk masuk ke partisi f)-"cd nama folder kita"
+6) ketikkan perintah " git clone url repository kita"
+
+
+-sekarang kita coba tambahkan file di repository yang tadi kita clone 
+
+f:
+cd program
+cd git
+cd project
+git clone "repository kita"
+cd cokumentas
+git status
+git add .
+git status
+git commit -m "komen"
+git push origi master
+
